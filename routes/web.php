@@ -61,9 +61,7 @@ Route::group(['middleware' => 'auth'],function(){
 Route::group(['middleware' => 'guest'], function(){
     
     // 新規作成はセキュリティのため削除　作成する場合はコメントはずず
-    Route::get('member/word/user_create',[UserController::class,'user_create'])->name('word.user_create');
-    Route::post('member/word/postsSignup',[UserController::class,'postsSignup'])->name('word.postsSignup');
-    Route::get('member/word/profile',[UserController::class,'getProfile'])->name('word.profile');
+    
     
      //ログイン
     Route::get('member/word/user/signin', [UserController::class, 'login_view'])->name('word.login');

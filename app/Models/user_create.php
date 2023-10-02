@@ -15,10 +15,7 @@ class user_create extends Authenticatable
     use HasFactory;
     use Notifiable;
 
-    protected $table = 'user_create';
-    protected $fillable = [
-        'name','user_id','password',
-    ];
+    
 
      
 }
