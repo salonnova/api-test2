@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
-class Usercontroller extends Controller
+class UserController extends Controller
 {
    // 新規作成はセキュリティのため削除
       
