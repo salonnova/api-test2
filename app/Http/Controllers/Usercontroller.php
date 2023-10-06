@@ -12,7 +12,12 @@ use Illuminate\Support\Facades\Hash;
 class UserController extends Controller
 {
    // 新規作成はセキュリティのため削除
-      
+   
+   public function user_create()
+   {
+      return view('word.user_create');
+   }
+
 
 
    
