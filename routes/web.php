@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 use App\Http\Controllers\WordController;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\Usercontroller;
 
 /*
 |--------------------------------------------------------------------------
