@@ -32,8 +32,7 @@ Route::get('member/word_top',['middleware' => 'auth', function(){
     return view('word.index');
 }])->name('word.index');
 //ログイン成功
-// Route::get('/word_top', [WordController::class, 'index'])->name('word.index');
-// Route:: group(['middleware'=> 'auth'],function(){
+Route::get('/word_top', [WordController::class, 'index'])->name('word.index');
 
     
 
