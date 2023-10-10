@@ -20,5 +20,4 @@ class user_create extends Authenticatable
         'name','user_id','password',
     ];
 
-     
 }
