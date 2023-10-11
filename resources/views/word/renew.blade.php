@@ -10,7 +10,7 @@
        html{
          
          background-color: rgb(201, 236, 253);
-         background-image: url("{{ asset('/storage/word木.png') }}");
+         background-image: url("{{ asset('/storage/wordtree.png') }}");
          background-repeat: no-repeat;
          background-position: center;
          background-size: contain;
@@ -86,7 +86,7 @@
    <fieldset>
          <div class="form-group">
             <label for="book_name" class="red-title">{{ __('英単語') }}<span class="">{{ __(' (必須!)') }}</span></label>
-            <input type="text" class="red" name="word" id="book_name">
+            <input type="text" class="red" name="word" id="book_name" value="{{ old('word', $word -> word) }}">
             
             <label for="book_name" class="red-title">{{ __('日本語での意味') }}<span class="badge badge-danger ml-2">{{ __(' (必須!)') }}</span></label>
             <input type="text" class="red" name="mean" id="book_name">

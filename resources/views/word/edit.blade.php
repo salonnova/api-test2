@@ -11,7 +11,7 @@
       html{
          
          background-color: rgb(201, 236, 253);
-         background-image: url("{{ asset('/storage/word木.png') }}");
+         background-image: url("{{ asset('/storage/wordtree.png') }}");
          background-repeat: no-repeat;
          background-position: center;
          background-size: contain;
